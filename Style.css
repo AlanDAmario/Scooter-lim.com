@@ -1,0 +1,83 @@
+body{
+    background-image: url(background.jpg);
+    background-size: 100% 100%;
+}
+
+/* sotto sfondo nero */
+.square{
+    background-color: rgba(0, 0, 0, 0.60);
+    height: auto;
+    margin: 180px;
+    padding: 90px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 110px;
+}
+
+
+
+.logo-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{     
+    width: 165px;
+}
+
+h1{
+    text-align: center;
+    color: limegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.row-button{ 
+    background-color: limegreen;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+button[type="button"]{
+    font-size: 12px;
+}
+
+
+.color-text{ 
+    color: white;
+}
+
+h3{
+    margin-bottom: 0%;
+    display: inline-block;
+    font-family: "Protest Riot", sans-serif;
+}
+
+div > p{
+    font-size: 13px;
+    margin: auto;
+}
+
+.line-orange{
+    background-color: orange;
+    width: 45%;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.line-green{
+    background-color: green;
+    width: 65%;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.line-red{
+    background-color: red;
+    width: 25%;
+    padding: 9px;
+    border-radius: 5px;
+}
